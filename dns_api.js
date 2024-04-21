@@ -144,24 +144,24 @@ function dns_urls() {
 
 
 
-  dr4 = "https://www.dns-shop.ru/search/?q=%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F+%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C&category=17a89a3916404e77"
-  Kingston = "&brand=kingstonfury&";
-  Samsung = "&brand=samsung&";
-  ADATA = "&brand=xpgadata&";
-  DDR42 = "&f[z0mm]=1jdava&";
-  DDR52 = "&f[z0mm]=1jdavb&";
-  DDR32 = "&f[z0mm]=1jdav3&";
-  EH = "&f[ms]=2ba&";
-  HEX = "&f[ms]=2bd&";
-  FT = "&f[ms]=eb03&";
+  let dr4 = "https://www.dns-shop.ru/search/?q=%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F+%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C&category=17a89a3916404e77"
+  let Kingston = "&brand=kingstonfury&";
+  let Samsung = "&brand=samsung&";
+  let ADATA = "&brand=xpgadata&";
+  let DDR42 = "&f[z0mm]=1jdava&";
+  let DDR52 = "&f[z0mm]=1jdavb&";
+  let DDR32 = "&f[z0mm]=1jdav3&";
+  let EH = "&f[ms]=2ba&";
+  let HEX = "&f[ms]=2bd&";
+  let FT = "&f[ms]=eb03&";
   let tch3200 = "&f[wc]=b6l1&";
   let tch2666 = "&f[wc]=9do&";
   let tch3600 = "&f[wc]=b6mc&";
-  OM = "&f[z1h2]=1jdaxn&";
-  TM = "&f[z1h2]=1jdaxs&";
-  FM = "&f[z1h2]=1jdaxt&";
-  Yeah = "&f[z1h2]=1jdaxt&";
-  No = "&f[wj]=9ey&";
+  let OM = "&f[z1h2]=1jdaxn&";
+  let TM = "&f[z1h2]=1jdaxs&";
+  let FM = "&f[z1h2]=1jdaxt&";
+  let Yeah = "&f[z1h2]=1jdaxt&";
+  let No = "&f[wj]=9ey&";
 
   var mas_PAM = ["Kingston", "Samsung", "ADATA", "DDR4", "DDR5", "DDR3", "8", "16", "32", "3200", "2666", "3600", "1", "2", "4", "Есть", "Нет"];
   var mas_PAM1 = [Kingston, Samsung, ADATA, DDR42, DDR52, DDR32, EH, HEX, FT, tch3200, tch2666, tch3600, OM, TM, FM, Yeah, No];
@@ -187,23 +187,23 @@ function dns_urls() {
 
 
 
-  dr5 = "https://www.dns-shop.ru/search/?q=%D0%B1%D0%BB%D0%BE%D0%BA+%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F&category=17a89c2216404e77"
-  AeroCool = "&brand=aerocool&";
-  Cougar = "&brand=cougar&";
-  Chieftec = "&brand=chieftec&";
-  m500v = "&fr[wts5]=200-500&";
-  o500d1000v = "&fr[wts5]=501-1000&";
-  b1000v = "&fr[wts5]=1001-1500&";
-  Bronze = "&f[w6]=9cm&";
-  Standart = "&f[w6]=7grf&";
-  Gold = "&f[w6]=9cn&";
-  Platinum = "&f[w6]=9cq&";
+  let dr5 = "https://www.dns-shop.ru/search/?q=%D0%B1%D0%BB%D0%BE%D0%BA+%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F&category=17a89c2216404e77"
+  let AeroCool = "&brand=aerocool&";
+  let Cougar = "&brand=cougar&";
+  let Chieftec = "&brand=chieftec&";
+  let m500v = "&fr[wts5]=200-500&";
+  let o500d1000v = "&fr[wts5]=501-1000&";
+  let b1000v = "&fr[wts5]=1001-1500&";
+  let Bronze = "&f[w6]=9cm&";
+  let Standart = "&f[w6]=7grf&";
+  let Gold = "&f[w6]=9cn&";
+  let Platinum = "&f[w6]=9cq&";
   let spolu = "&f[wq]=dbl1&";
   let spas = "&f[wq]=9h1&";
   let sact = "&f[wq]=9h0&";
-  ATX = "&f[wts1]=1envp2&";
-  SFX = "&f[wts1]=1envpn&";
-  TFX = "&f[wts1]=1envpo&";
+  let ATX = "&f[wts1]=1envp2&";
+  let SFX = "&f[wts1]=1envpn&";
+  let TFX = "&f[wts1]=1envpo&";
 
   var mas_BLOCK = ["AeroCool", "Cougar", "Chieftec", "Менее 500", "501 - 1000", "1001 - 1500", "Bronze", "Standart", "Gold", "Platinum", "полупасивная", "пасивная", "активная", "ATX", "SFX", "TFX"];
   var mas_BLOCK1 = [AeroCool, Cougar, Chieftec, m500v, o500d1000v, b1000v, Bronze, Standart, Gold, Platinum, spolu, spas, sact, ATX, SFX, TFX];
@@ -228,23 +228,23 @@ function dns_urls() {
 
 
 
-  dr6 = "https://www.dns-shop.ru/catalog/17a89c5616404e77/korpusa/?order=6&stock=now-today-tomorrow-later"
-  AeroCool1 = "&brand=aerocool&";
-  Cougar1 = "&brand=cougar&";
-  DEEPCOOL1 = "&brand=deepcool&";
-  ZALMAN = "&brand=zalman&";
-  EATX = "&f[rk4l]=12s3xw&";
-  MicroATX3 = "&f[rk4l]=12s3y0&";
-  MINIITX3 = "&f[rk4l]=12s3y3&";
-  MIDTOWER = "&f[nn]=2if&";
-  MINITOWER = "&f[nn]=2if&";
-  FULLTOWER = "&f[nn]=2ic&";
-  WHITE = "&f[ltf]=85r6&";
-  BLACK = "&f[ltf]=85r2&";
-  GRAY = "&f[ltf]=85r8&";
-  BIRUZ = "&f[ltf]=17slsb&";
-  NIZ = "&f[rk47]=12sade&";
-  VVERH = "&f[rk47]=12sad9&";
+  let dr6 = "https://www.dns-shop.ru/catalog/17a89c5616404e77/korpusa/?order=6&stock=now-today-tomorrow-later"
+  let AeroCool1 = "&brand=aerocool&";
+  let Cougar1 = "&brand=cougar&";
+  let DEEPCOOL1 = "&brand=deepcool&";
+  let ZALMAN = "&brand=zalman&";
+  let EATX = "&f[rk4l]=12s3xw&";
+  let MicroATX3 = "&f[rk4l]=12s3y0&";
+  let MINIITX3 = "&f[rk4l]=12s3y3&";
+  let MIDTOWER = "&f[nn]=2if&";
+  let MINITOWER = "&f[nn]=2if&";
+  let FULLTOWER = "&f[nn]=2ic&";
+  let WHITE = "&f[ltf]=85r6&";
+  let BLACK = "&f[ltf]=85r2&";
+  let GRAY = "&f[ltf]=85r8&";
+  let BIRUZ = "&f[ltf]=17slsb&";
+  let NIZ = "&f[rk47]=12sade&";
+  let VVERH = "&f[rk47]=12sad9&";
   let ACRIL = "&f[5g4a]=3dt4g&";
   let ZACAL = "&f[5g4a]=266bg&";
 
@@ -272,10 +272,10 @@ function dns_urls() {
 
 
 
-  dr7 = "https://www.dns-shop.ru/catalog/17a9cc2d16404e77/kulery-dlya-processorov/?q=%D0%BA%D1%83%D0%BB%D0%BB%D0%B5%D1%80&order=6&stock=now-today-tomorrow-later-out_of_stock"
-  CoolerMaster4 = "&brand=coolermaster&";
-  DEEPCOOL4 = "&brand=deepcool&";
-  AeroCool4 = "&brand=aerocool&";
+  let dr7 = "https://www.dns-shop.ru/catalog/17a9cc2d16404e77/kulery-dlya-processorov/?q=%D0%BA%D1%83%D0%BB%D0%BB%D0%B5%D1%80&order=6&stock=now-today-tomorrow-later-out_of_stock"
+  let CoolerMaster4 = "&brand=coolermaster&";
+  let DEEPCOOL4 = "&brand=deepcool&";
+  let AeroCool4 = "&brand=aerocool&";
   let GORIZ = "&f[laa]=uwpwf&";
   let BASH = "&f[laa]=uwpwa&";
   let GORIZBASH = "&f[laa]=uwpwg&";
@@ -316,14 +316,14 @@ function dns_urls() {
 
 
 
-  dr8 = "https://www.dns-shop.ru/catalog/8a9ddfba20724e77/ssd-nakopiteli/?q=%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C+%D0%B4%D0%BB%D1%8F+%D0%BF%D0%BA&order=6&stock=now-today-tomorrow-later-out_of_stock"
-  Samsung6 = "&brand=samsung&";
-  Kingston6 = "&brand=kingston&";
-  ADATA53 = "&brand=adata&";
+  let dr8 = "https://www.dns-shop.ru/catalog/8a9ddfba20724e77/ssd-nakopiteli/?q=%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C+%D0%B4%D0%BB%D1%8F+%D0%BF%D0%BA&order=6&stock=now-today-tomorrow-later-out_of_stock"
+  let Samsung6 = "&brand=samsung&";
+  let Kingston6 = "&brand=kingston&";
+  let ADATA53 = "&brand=adata&";
   let DEXP = "&brand=dexp&";
-  p120 = "&fr[c03]=120-239&";
-  p500 = "&fr[c03]=240-479&";
-  p960 = "&fr[c03]=480-959&";
+  let p120 = "&fr[c03]=120-239&";
+  let p500 = "&fr[c03]=240-479&";
+  let p960 = "&fr[c03]=480-959&";
   let M515 = "&fr[c09]=450-515&";
   let O515D549 = "&fr[c09]=516-549&";
   let O550D559 = "&fr[c09]=550-559&";

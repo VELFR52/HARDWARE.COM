@@ -199,23 +199,23 @@ function wb_ulrs() {
 
 
 
-  dr6 = "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BA"
-  AeroCool1 = "&fbrand=59203&";
-  Cougar1 = "&fbrand=14392&";
-  DEEPCOOL1 = "&fbrand=63434&";
-  ZALMAN = "&fbrand=34008&";
-  EATX = "&f143264=143266&";
-  MicroATX3 = "&f143264=2142400&";
-  MINIITX3 = "&f143264=143271&";
-  MIDTOWER = "&f167301=4258255&";
-  MINITOWER = "&f167301=6111854&";
-  FULLTOWER = "&f167301=6110772&";
-  WHITE = "&fcolor=16777215&";
-  BLACK = "&fcolor=0&";
-  GRAY = "&fcolor=8421504&";
-  BIRUZ = "&fcolor=11393254&";
-  NIZ = "&f167313=4318595&";
-  VVERH = "&f167313=4318600&";
+ let dr6 = "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BA"
+ let AeroCool1 = "&fbrand=59203&";
+ let Cougar1 = "&fbrand=14392&";
+ let DEEPCOOL1 = "&fbrand=63434&";
+ let ZALMAN = "&fbrand=34008&";
+ let EATX = "&f143264=143266&";
+ let MicroATX3 = "&f143264=2142400&";
+ let MINIITX3 = "&f143264=143271&";
+ let MIDTOWER = "&f167301=4258255&";
+ let MINITOWER = "&f167301=6111854&";
+ let FULLTOWER = "&f167301=6110772&";
+ let WHITE = "&fcolor=16777215&";
+ let BLACK = "&fcolor=0&";
+ let GRAY = "&fcolor=8421504&";
+ let BIRUZ = "&fcolor=11393254&";
+ let NIZ = "&f167313=4318595&";
+ let VVERH = "&f167313=4318600&";
 
 
   var mas_CORP = ["AeroCool", "Cougar", "DEEPCOOL", "ZALMAN", "E-ATX", "Micro-ATX", "MINI-ITX", "Mid-Tower", "Mini-Tower", "Full-Tower", "чёрный", "белый", "серый", "бирюзовый", "нижнее", "вверхнее"];
