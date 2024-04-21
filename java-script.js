@@ -41,7 +41,3 @@ document.getElementById("logo").addEventListener('click', event => {
   document.getElementsByClassName("filter_result")[0].classList.add("hidden-block");
 });*/
 
-document.getElementById("vsem").addEventListener('click', event => {
-  dns_urls
-  wb_ulrs
-}
