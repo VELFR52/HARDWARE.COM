@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel='stylesheet' href='style.css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+
+	<title>HARDWARE.COM</title>
+</head>
+<body>
+	<div class="container">
+	 	<div class='header'>
+			<a class='nav-item' id="logo">Hardware.com</a>
+	 	</div>
+
+	 	<div class="flex-container">
+		 	<div class="select_shops">
+		 		<div class="flex">
+			 		<div class="shops-ozon"><img src="assets/ozon.png" alt="" id="assets/ozon.png"/></div>
+			 		<div class="shops-wb"><img src="assets/wb.png" alt="" id="assets/wb.png"/></div>
+			 		<div class="shops-ali"><img src="assets/ali.png" alt="" id="assets/ali.png"/></div>
+			 		<div class="shops-dns"><img src="assets/dns.png" alt="" id="assets/dns.png"/></div>
+		 		</div>
+		 		<div class="button-block">
+		 			<button type="button" class="but" id="vsem">Применить фильтры  для всех магазинов</button>
+		 		</div>
+		 	</div>
+
+		 	<!--  Результат фильтра  -->
+			<div class="filter_result hidden-block">
+					<h1>Выборка</h1>
+					<div class="selection_block">
+						<div class="selection_el">
+							<img src="assets/jopa.jpg" alt="">
+							<div class="el_info">
+								<h3>Lorem, ipsum, dolor.</h3>
+								<p>Lorem ipsum, dolor, sit amet consectetur adipisicing
+								 elit. Officia voluptatem sunt accusantium fuga dolor ipsum dolorum,
+								  mollitia repellendus quaerat quia ratione autem, dolore quae delectus?</p>
+							</div>
+						</div>
+						<div class="selection_el">
+							<img src="assets/jopa.jpg" alt="">
+							<div class="el_info">
+								<h3>Lorem, ipsum, dolor.</h3>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quam consequuntur repellat similique vel asperiores dignissimos soluta nihil sunt, eaque laboriosam sint dolorum, ullam ad sed deserunt reiciendis, iusto aperiam cupiditate doloremque fugit commodi. Nihil commodi doloribus repudiandae nemo modi ratione accusantium quam dolores accusamus, quas quia facere obcaecati ea illo et laboriosam nisi animi quis voluptas reiciendis aliquid nostrum possimus neque hic. Ullam ab cupiditate modi optio aliquid, molestias earum nulla commodi repellat, aut, eveniet vel voluptate doloremque aspernatur quia rerum hic quae minima quam unde! Provident ipsum amet eligendi, temporibus ipsam illo, eum asperiores doloribus obcaecati architecto consectetur optio, vel quisquam commodi itaque, quis odio corrupti. Enim sunt nihil optio iste ex explicabo dolor suscipit! Eos amet ad temporibus autem perferendis illo odit minus distinctio porro rem minima aut eveniet nesciunt, ex natus exercitationem labore magnam accusamus repellendus suscipit? Eaque delectus omnis sunt temporibus repellendus quasi amet facilis.</p>
+							</div>
+						</div>
+						<div class="selection_el">
+							<img src="assets/jopa.jpg" alt="">
+							<div class="el_info">
+								<h3>Lorem, ipsum, dolor.</h3>
+								<p>Lorem ipsum, dolor, sit amet consectetur adipisicing
+								 elit. Officia voluptatem sunt accusantium fuga dolor ipsum dolorum,
+								  mollitia repellendus quaerat quia ratione autem, dolore quae delectus?</p>
+							</div>
+						</div>
+						<div class="selection_el">
+							<img src="assets/jopa.jpg" alt="">
+							<div class="el_info">
+								<h3>Lorem, ipsum, dolor.</h3>
+								<p>Lorem ipsum, dolor, sit amet consectetur adipisicing
+								 elit. Officia voluptatem sunt accusantium fuga dolor ipsum dolorum,
+								  mollitia repellendus quaerat quia ratione autem, dolore quae delectus?</p>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<!--  Сам фильтр  -->
+		 	<div class="select_hardware">
+ 				<div class="modal" id="my-modal-cpu">
+ 					<div class="modal_box">
+				 		<form>
+				 			<div class="cpu_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="AMD">AMD</option>
+										<option value="Intel">Intel</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Сокет:</label>
+									<select class="select" id="Socket">
+										<option value="AM5">AM5</option>
+										<option value="AM4">AM4</option>
+										<option value="LGA 1700">LGA 1700</option>
+										<option value="LGA 1200">LGA 1200</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Тип памяти:</label>
+									<select class="select" id="Memory">
+										<option value="DDR4">DDR4</option>
+										<option value="DDR3">DDR3</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Базовая частота процессора(ГГц):</label>
+									<select class="select" id="GGS">
+										<option value="1.4">1.8</option>
+										<option value="2.4">2.4</option>
+										<option value="3.4">3.4</option>
+										<option value="4.4">4.4</option>
+  									</select>
+									</div>
+									<div class="block">
+									<label for="legacy">Поколение:</label>
+									<select class="select" id="legacy">
+										<option value="Intel 11-ое поколение">Intel 11-ое поколение</option>
+										<option value="Intel 10-ое поколение">Intel 10-ое поколение</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Core">Интегрированое графическое ядро:</label>
+									<select class="select" id="Core">
+										<option value="Есть">Есть</option>
+										<option value="Нет">Нет</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+					</div>
+					</div>
+ 				<div class="modal" id="my-modal-gpu">
+ 					<div class="modal_box">
+							<form>
+				 			<div class="gpu_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="ASUS">ASUS</option>
+										<option value="Asrock">Asrock</option>
+										<option value="DEXP">DEXP</option>
+										<option value="GIGABYTE">GIGABYTE</option>
+										<option value="MSI">MSI</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Объём видеопамяти(ГБ):</label>
+									<select class="select" id="Socket">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="4">4</option>
+										<option value="6">6</option>
+										<option value="8">8</option>
+										<option value="10">10</option>
+										<option value="12">12</option>
+										<option value="16">16</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Производитель графического процессора:</label>
+									<select class="select" id="Memory">
+										<option value="NVIDIA">NVIDIA</option>
+										<option value="AMD">AMD</option>
+										<option value="INTEL">INTEL</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Графический процессор:</label>
+									<select class="select" id="GGS">
+										<option value="GeForce GTX 1650">GeForce GTX 1650</option>
+										<option value="GeForce GTX 1650 SUPER">GeForce GTX 1660 SUPER</option>
+										<option value="GeForce RTX 3050">GeForce RTX 3050</option>
+										<option value="GeForce RTX 4060">GeForce RTX 4060</option>
+										<option value="GeForce RTX 4060 TI">GeForce RTX 4060 TI</option>
+										<option value="GeForce GT 730">GeForce GT 730</option>
+										<option value="Radeon RX 6900 XT">Radeon RX 6900 XT</option>
+										<option value="Radeon RX 6700 XT">Radeon RX 6700 XT</option>
+  									</select>
+									</div>
+									<div class="block">
+									<label for="memory-type">Тип памяти:</label>
+									<select class="select" id="memory-type">
+										<option value="GDDR6X">GDDR6X</option>
+										<option value="GDDR6">GDDR6</option>
+										<option value="GDDR5">GDDR5</option>
+										<option value="GDDR3">GDDR3</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="modal" id="my-modal-mat">
+ 					<div class="modal_box">
+ 						<form>
+				 			<div class="mat_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="ASUS">ASUS</option>
+										<option value="Asrock">Asrock</option>
+										<option value="GIGABYTE">GIGABYTE</option>
+										<option value="MSI">MSI</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Сокет:</label>
+									<select class="select" id="Socket">
+										<option value="AM5">AM5</option>
+										<option value="AM4">AM4</option>
+										<option value="LGA 1700">LGA 1700</option>
+										<option value="LGA 1200">LGA 1200</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Тип поддерживаемой памяти:</label>
+									<select class="select" id="Memory">
+										<option value="DDR5">DDR5</option>
+										<option value="DDR4">DDR4</option>
+										<option value="DDR3">DDR3</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="form-fac">Форм-фактор:</label>
+									<select class="select" id="form-fac">
+										<option value="Standart-ATX">Standart-ATX</option>
+										<option value="Micro-ATX">Micro-ATX</option>
+										<option value="Mini-ITX">Mini-ITX</option>
+  									</select>
+									</div>
+									<div class="block">
+									<label for="GGS">Количество слотов памяти:</label>
+									<select class="select" id="GGS">
+										<option value="8">8</option>
+										<option value="4">4</option>
+										<option value="2">2</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Core">Количество разъёмов M.2:</label>
+									<select class="select" id="Core">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="modal" id="my-modal-pam">
+ 					<div class="modal_box">
+ 						<form>
+				 			<div class="pam_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="Kingston">Kingston</option>
+										<option value="Samsung">Samsung</option>
+										<option value="ADATA">XPG</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Тип памяти:</label>
+									<select class="select" id="Socket">
+										<option value="DDR5">DDR5</option>
+										<option value="DDR4">DDR4</option>
+										<option value="DDR3">DDR3</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Объём одного модуля памяти(ГБ):</label>
+									<select class="select" id="Memory">
+										<option value="8">8</option>
+										<option value="16">16</option>
+										<option value="32">32</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Тактовая частота(МГц):</label>
+									<select class="select" id="GGS">
+										<option value="3200">3200</option>
+										<option value="3600">3600</option>
+										<option value="2666">2666</option>
+  									</select>
+									</div>
+									<div class="block">
+									<label for="count">Количество модулей в комплекте(ШТ):</label>
+									<select class="select" id="count">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Core">Наличие радиатора:</label>
+									<select class="select" id="Core">
+										<option value="Есть">Есть</option>
+										<option value="Нет">Нет</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="modal" id="my-modal-block">
+ 					<div class="modal_box">
+ 						<form>
+				 			<div class="block_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="AeroCool">AeroCool</option>
+										<option value="Cougar">Cougar</option>
+										<option value="Chieftec">Chieftec</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Мощность (номинал)(Вт):</label>
+									<select class="select" id="Socket">
+										<option value="Менее 500">Менее 500</option>
+										<option value="501 - 1000">501 - 1000</option>
+										<option value="1001 - 1500">1001 - 1500</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Сертификат 80 PLUS:</label>
+									<select class="select" id="Memory">
+										<option value="Bronze">Bronze</option>
+										<option value="Gold">Gold</option>
+										<option value="Platinum">Platinum</option>
+										<option value="Standart">Standart</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Система охлаждения:</label>
+									<select class="select" id="GGS">
+										<option value="активная">активная</option>
+										<option value="пасивная">пасивная</option>
+										<option value="полупасивная">полупасивная</option> 
+  									</select>
+									</div>
+									<div class="block">
+									<label for="form-fac">Форм-фактор:</label>
+									<select class="select" id="form-fac">
+										<option value="ATX">ATX</option>
+										<option value="SFX">SFX</option>
+										<option value="TFX">TFX</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="modal" id="my-modal-corp">
+ 					<div class="modal_box">
+ 						<form>
+				 			<div class="corp_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="AeroCool">AeroCool</option>
+										<option value="Cougar">Cougar</option>
+										<option value="DEEPCOOL">DEEPCOOL</option>
+										<option value="ZALMAN">ZALMAN</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Форм-фактор совместимых плат:</label>
+									<select class="select" id="Socket">
+										<option value="E-ATX">E-ATX</option>
+										<option value="Micro-ATX">Micro-ATX</option>
+										<option value="Mini-ITX">Mini-ITX</option>
+										<option value="Standard-ATX">Standard-ATX</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Типоразмер:</label>
+									<select class="select" id="Memory">
+										<option value="Mid-Tower">Mid-Tower</option>
+										<option value="Mini-Tower">Mini-Tower</option>
+										<option value="Full-Tower">Full-Tower</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Размещение блока питания:</label>
+									<select class="select" id="GGS">
+										<option value="нижнее">нижнее</option>
+										<option value="верхнее">верхнее</option>
+  									</select>
+									</div>
+									<div class="block">
+									<label for="color">основной цвет:</label>
+									<select class="select" id="color">
+										<option value="белый">белый</option>
+										<option value="серый">серый</option>
+										<option value="чёрный">чёрный</option>
+										<option value="бирюзовый">бирюзовый</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Core">Материал окна:</label>
+									<select class="select" id="Core">
+										<option value="акрил">акрил</option>
+										<option value="закалённое стекло">закалённое стекло</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="modal" id="my-modal-frez">
+ 					<div class="modal_box">
+ 						<form>
+				 			<div class="frez_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="CoolerMaster">CoolerMaster</option>
+										<option value="DEEPCOOL">DEEPCOOL</option>
+										<option value="AeroCool">AeroCool</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Тип конструкции:</label>
+									<select class="select" id="Socket">
+										<option value="горизонтальный">горизонтальный</option>
+										<option value="башенный">башенный</option>
+										<option value="горизонтально-башенный(Top-Flow)">горизонтально-башенный(Top-Flow)</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Разъём для подключения вентиляторов:</label>
+									<select class="select" id="Memory">
+										<option value="3 pin">3 pin</option>
+										<option value="4 pin">4 pin</option>
+										<option value="4 pin x2">4 pin x2</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Высота(мм):</label>
+									<select class="select" id="GGS">
+										<option value="Менее 60">Менее 60</option>
+										<option value="60.01-120">60.01-120</option>
+										<option value="120.01-160">120.01-160</option>
+  									</select>
+									</div>
+									<div class="block">
+									<label for="light">Тип подсветки:</label>
+									<select class="select" id="light">
+										<option value="нет">нет</option>
+										<option value="ARGB">ARGB</option>
+										<option value="RGB">RGB</option>
+										<option value="FRGB">FRGB</option>
+									</select>
+								</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="modal" id="my-modal-nak">
+ 					<div class="modal_box">
+ 						<form>
+				 			<div class="nak_filters">
+				 				<div class="block">
+									<label for="Manufacturer">Производитель:</label>
+									<select class="select" id="Manufacturer">
+										<option value="Samsung">Samsung</option>
+										<option value="Kingston">Kingston</option>
+										<option value="ADATA">ADATA</option>
+										<option value="DEXP">DEXP</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="Socket">Объём накопителя:</label>
+									<select class="select" id="Socket">
+										<option value="120-239">120-239</option>
+										<option value="240-479">240-479</option>
+										<option value="480-959">480-959</option>
+									</select>
+								</div>
+								<div class="block">	
+									<label for="Memory">Максимальная скорость последовательного чтения (Мбайт/сек):</label>
+									<select class="select" id="Memory">
+										<option value="Менее 515">Менее 515</option>
+										<option value="516-549">516-549</option>
+										<option value="550-559">550-559</option>
+										<option value="560 и более">560 и более</option>
+									</select>
+								</div>
+								<div class="block">
+									<label for="GGS">Максимальная скорость последовательной записи (Мбайт/сек):</label>
+									<select class="select" id="GGS">
+										<option value="Менее 450">Менее 450</option>
+										<option value="451-500">451-500</option>
+										<option value="501-529">501-529</option>
+										<option value="530 и более">530 и более</option>
+  									</select>
+									</div>
+						  	</div>
+						</form>
+ 					</div>
+ 				</div>
+ 				<div class="hardware">
+		 			<div class="main" id="open-modal-cpu">
+		 				<img src="assets/cpu.png" alt="">
+		 				<div class="main_text">Процессор</div>
+	 				</div>
+	 				<div class="main" id="open-modal-gpu">
+		 				<img src="assets/gpu.png" alt="">
+		 				<div class="main_text">Видеокарта</div>
+	 				</div>
+	 				<div class="main" id="open-modal-mat">
+		 				<img src="assets/plata.png" alt="">
+		 				<div class="main_text">Мат.Плата</div>
+	 				</div>
+	 				<div class="main" id="open-modal-pam">
+		 				<img src="assets/memory.png" alt="">
+		 				<div class="main_text">Опер.память</div>
+	 				</div>
+	 				<div class="main" id="open-modal-block">
+		 				<img src="assets/bp.png" alt="">
+		 				<div class="main_text">Блок питания</div>
+	 				</div>
+	 				<div class="main" id="open-modal-corp">
+		 				<img src="assets/corpus.png" alt="">
+		 				<div class="main_text">Корпус</div>
+	 				</div>
+	 				<div class="main" id="open-modal-frez">
+		 				<img src="assets/freeze.png" alt="">
+		 				<div class="main_text">Охлаждение</div>
+	 				</div>
+	 				<div class="main" id="open-modal-nak">
+		 				<img src="assets/hdd.png" alt="">
+		 				<div class="main_text">Накопитель</div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div> 	
+ 	</div>
+ 	<script src="./java-script.js"></script>
+ 	<script src="./wb_api.js"></script>
+ 	<script src="./ozon._api.js"></script>
+ 	<script src="./ali_api.js"></script>
+ 	<script src="./dns_api.js"></script>
+</body>
+</html>
